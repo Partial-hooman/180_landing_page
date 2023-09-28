@@ -2,7 +2,7 @@ import streamlit as st
 from st_pages import Page, show_pages, add_page_title, Section
 
 
-show_pages(
+show_pages([
   Section(name='Link Building Tools'),
   Page("landing_page.py", "welcome"),
   Page("pages/1_Link_Checker.py", "Link Checker"),
@@ -22,6 +22,7 @@ show_pages(
   Page("pages/05_Google_Autocomplete_Scraper.py","Google Autocomplete Scraper"),
   Page("pages/06_Question_Clustering_Tool.py","Question Clustering Tool"),
   Page("pages/08_Relevant_Page_Finder.py","Relevant Page Finder")
+           ]
 )
 
 st.title('''180 Marketing Tools
