@@ -3,24 +3,24 @@ from st_pages import Page, show_pages, add_page_title
 
 
 show_pages(
-  Section(name='Link Building Tools')
+  Section(name='Link Building Tools'),
   Page("landing_page.py", "welcome"),
-  Page("pages/1_Link_Checker.py", "Link Checker")
-  Page("pages/15_Web_Explorer_Query_Generator.py", "Web Explorer Query Generator")
-  Page("pages/16_Prospecting_Keyword_Analyzer.py", "Prospecting Keyword Analyzer")
-  Page("pages/18_Prospecting_Cleanup_Tool.py", "Prospecting Cleanup Tool")
-  Page("pages/17_Content_Refresh_Tools.py", "Content Refresh Tools")
-  Page("pages/19_Pitchbox_Tag_Suggestor.py", "Pitchbox Tag Suggestor")
-  Page("pages/10_Backlink_Relevance_Checker.py", "Backlink Relevance Checker")
-  Section(name='SEO Tools')
-  Page("pages/12_Keyword_Cannibalization_tool.py","Keyword Cannibalization tool")
-  Page("pages/09_Algorithmic_Optimization_Tool.py","Algorithmic Optimization Tool")
-  Page("pages/13_Title_Tag_Checker.py","Title Tag Checker")
-  Page("pages/04_Internal_Linking_Tool.py","Internal Linking Tool")
-  Page("pages/02_Bulk_URL_Removal_Tool.py","Bulk URL Removal Tool")
-  Page("pages/02_Bulk_URL_Submission_Tool.py","Bulk URL Submission Tool")
-  Page("pages/05_Google_Autocomplete_Scraper.py","Google Autocomplete Scraper")
-  Page("pages/06_Question_Clustering_Tool.py","Question Clustering Tool")
+  Page("pages/1_Link_Checker.py", "Link Checker"),
+  Page("pages/15_Web_Explorer_Query_Generator.py", "Web Explorer Query Generator"),
+  Page("pages/16_Prospecting_Keyword_Analyzer.py", "Prospecting Keyword Analyzer"),
+  Page("pages/18_Prospecting_Cleanup_Tool.py", "Prospecting Cleanup Tool"),
+  Page("pages/17_Content_Refresh_Tools.py", "Content Refresh Tools"),
+  Page("pages/19_Pitchbox_Tag_Suggestor.py", "Pitchbox Tag Suggestor"),
+  Page("pages/10_Backlink_Relevance_Checker.py", "Backlink Relevance Checker"),
+  Section(name='SEO Tools'),
+  Page("pages/12_Keyword_Cannibalization_tool.py","Keyword Cannibalization tool"),
+  Page("pages/09_Algorithmic_Optimization_Tool.py","Algorithmic Optimization Tool"),
+  Page("pages/13_Title_Tag_Checker.py","Title Tag Checker"),
+  Page("pages/04_Internal_Linking_Tool.py","Internal Linking Tool"),
+  Page("pages/02_Bulk_URL_Removal_Tool.py","Bulk URL Removal Tool"),
+  Page("pages/02_Bulk_URL_Submission_Tool.py","Bulk URL Submission Tool"),
+  Page("pages/05_Google_Autocomplete_Scraper.py","Google Autocomplete Scraper"),
+  Page("pages/06_Question_Clustering_Tool.py","Question Clustering Tool"),
   Page("pages/08_Relevant_Page_Finder.py","Relevant Page Finder")
 )
 
