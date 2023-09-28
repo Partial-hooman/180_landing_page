@@ -38,6 +38,12 @@ Pitchbox Tag Suggestor - Get suggestions on the best tags to use for any domain.
 Backlink Relevance Checker - Checks how relevant a batch of backlinks are to the client’s website.
 ''')
 
+st.header('''SEO Tools
+
+
+
+''')
+
 st.markdown('''
 Keyword Cannibalization tool - Analyzes the client’s Queries report in Google Search Console to identify keyword cannibalization issues where multiple URLs are ranking for the same keywords. 
 
