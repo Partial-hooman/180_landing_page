@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.text("""Link Building Tools
+st.markdown("""Link Building Tools
 Link Checker - Checks a batch of domains to see if they pass 180’s quality guidelines.
 Web Explorer Query Generator - Paste in competitor domains to create custom prospecting queries for Ahrefs Web Explorer.
 Prospecting Keyword Analyzer - Find prospecting keywords for your client by uploading competitor backlinks from Ahrefs Web Explorer.
