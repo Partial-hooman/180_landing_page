@@ -1,6 +1,6 @@
 import streamlit as st
 
-multi = '''
+st.markdown('''
 Link Checker - Checks a batch of domains to see if they pass 180’s quality guidelines.
 
 
@@ -24,9 +24,9 @@ Pitchbox Tag Suggestor - Get suggestions on the best tags to use for any domain.
 
 
 Backlink Relevance Checker - Checks how relevant a batch of backlinks are to the client’s website.
+''')
 
-
-
+st.markdown('''
 Keyword Cannibalization tool - Analyzes the client’s Queries report in Google Search Console to identify keyword cannibalization issues where multiple URLs are ranking for the same keywords. 
 
 
@@ -54,8 +54,8 @@ Question Clustering Tool - Clusters 100’s or even 1,000’s of questions into 
 Relevant Page Finder - Input the client’s domain and up to 100 keywords to find the most relevant URL on the client’s website for each keyword.
 
 
-'''
-st.markdown(multi)
+''')
+
 
 
 
