@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write('''Link Building Tools
+'''
 Link Checker - Checks a batch of domains to see if they pass 180’s quality guidelines.
 Web Explorer Query Generator - Paste in competitor domains to create custom prospecting queries for Ahrefs Web Explorer.
 Prospecting Keyword Analyzer - Find prospecting keywords for your client by uploading competitor backlinks from Ahrefs Web Explorer.
@@ -11,7 +11,7 @@ Subheading Suggestor (Content Refresh) - Suggests additional subheadings that ca
 Pitchbox Tag Suggestor - Get suggestions on the best tags to use for any domain.
 Backlink Relevance Checker - Checks how relevant a batch of backlinks are to the client’s website.
 
-SEO Tools
+
 Keyword Cannibalization tool - Analyzes the client’s Queries report in Google Search Console to identify keyword cannibalization issues where multiple URLs are ranking for the same keywords. 
 Algorithmic Optimization Tool - Uses AI to automatically generate title tags and meta description for the top pages on the client’s website.
 Title Tag Checker - Identifies the best keyword for the top pages on the client’s website, and checks to see if the keyword exists in the page’s title tag.
@@ -22,4 +22,4 @@ Google Autocomplete Scraper - Scrapes Google Autocomplete for relevant questions
 Question Clustering Tool - Clusters 100’s or even 1,000’s of questions into different groups by analyzing the words within each keyword phrase. Great for identifying the main questions on a topic, especially while building a Topical Map.
 Relevant Page Finder - Input the client’s domain and up to 100 keywords to find the most relevant URL on the client’s website for each keyword.
 
-''')
+'''
